@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		43C5AAED256CA6CF00E33E76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C5AAEC256CA6CF00E33E76 /* Preview Assets.xcassets */; };
 		43C5AAF8256CA6D000E33E76 /* timetrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5AAF7256CA6D000E33E76 /* timetrackTests.swift */; };
 		43C5AB03256CA6D000E33E76 /* timetrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5AB02256CA6D000E33E76 /* timetrackUITests.swift */; };
+		43C5AB26256CA9F900E33E76 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C5AB25256CA9F900E33E76 /* LoginView.swift */; };
+		AECE63542A69D9934213CB49 /* Pods_timetrack_timetrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B01AFCFE392FCB5B0335A /* Pods_timetrack_timetrackUITests.framework */; };
+		DD7AA80BCE44E3B2EBD73612 /* Pods_timetrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB9FD79A7904133CAAB6E6 /* Pods_timetrack.framework */; };
+		E49D126E83088D84F399CE98 /* Pods_timetrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458EFDD326E07910AC23F3C8 /* Pods_timetrackTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DE1C65AB6E9B7A7790CC083 /* Pods-timetrack-timetrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrack-timetrackUITests.release.xcconfig"; path = "Target Support Files/Pods-timetrack-timetrackUITests/Pods-timetrack-timetrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B293349C77CCB0E69DB028A /* Pods-timetrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrack.debug.xcconfig"; path = "Target Support Files/Pods-timetrack/Pods-timetrack.debug.xcconfig"; sourceTree = "<group>"; };
 		43C5AAE2256CA6CE00E33E76 /* timetrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timetrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C5AAE5256CA6CE00E33E76 /* timetrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetrackApp.swift; sourceTree = "<group>"; };
 		43C5AAE7256CA6CE00E33E76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,14 @@
 		43C5AAFE256CA6D000E33E76 /* timetrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timetrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C5AB02256CA6D000E33E76 /* timetrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetrackUITests.swift; sourceTree = "<group>"; };
 		43C5AB04256CA6D000E33E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C5AB25256CA9F900E33E76 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		458EFDD326E07910AC23F3C8 /* Pods_timetrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timetrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9097F4BEE0AFB78F4E2D8F /* Pods-timetrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrack.release.xcconfig"; path = "Target Support Files/Pods-timetrack/Pods-timetrack.release.xcconfig"; sourceTree = "<group>"; };
+		6E8B01AFCFE392FCB5B0335A /* Pods_timetrack_timetrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timetrack_timetrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88027DC360684882C6118F24 /* Pods-timetrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrackTests.debug.xcconfig"; path = "Target Support Files/Pods-timetrackTests/Pods-timetrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		987A68CF98E2E13E00B54BDE /* Pods-timetrack-timetrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrack-timetrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-timetrack-timetrackUITests/Pods-timetrack-timetrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5FB9FD79A7904133CAAB6E6 /* Pods_timetrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timetrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8630B7CAA85DEB194816665 /* Pods-timetrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timetrackTests.release.xcconfig"; path = "Target Support Files/Pods-timetrackTests/Pods-timetrackTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7AA80BCE44E3B2EBD73612 /* Pods_timetrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E49D126E83088D84F399CE98 /* Pods_timetrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECE63542A69D9934213CB49 /* Pods_timetrack_timetrackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 				43C5AAF6256CA6D000E33E76 /* timetrackTests */,
 				43C5AB01256CA6D000E33E76 /* timetrackUITests */,
 				43C5AAE3256CA6CE00E33E76 /* Products */,
+				85AB53C994D3D86ED31C41AF /* Pods */,
+				98B7E4A2C0F72A33CDA91D46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +114,7 @@
 		43C5AAE4256CA6CE00E33E76 /* timetrack */ = {
 			isa = PBXGroup;
 			children = (
+				43C5AB24256CA9D400E33E76 /* login */,
 				43C5AAE5256CA6CE00E33E76 /* timetrackApp.swift */,
 				43C5AAE7256CA6CE00E33E76 /* ContentView.swift */,
 				43C5AAE9256CA6CF00E33E76 /* Assets.xcassets */,
@@ -130,6 +150,37 @@
 			path = timetrackUITests;
 			sourceTree = "<group>";
 		};
+		43C5AB24256CA9D400E33E76 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				43C5AB25256CA9F900E33E76 /* LoginView.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		85AB53C994D3D86ED31C41AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B293349C77CCB0E69DB028A /* Pods-timetrack.debug.xcconfig */,
+				4C9097F4BEE0AFB78F4E2D8F /* Pods-timetrack.release.xcconfig */,
+				987A68CF98E2E13E00B54BDE /* Pods-timetrack-timetrackUITests.debug.xcconfig */,
+				0DE1C65AB6E9B7A7790CC083 /* Pods-timetrack-timetrackUITests.release.xcconfig */,
+				88027DC360684882C6118F24 /* Pods-timetrackTests.debug.xcconfig */,
+				F8630B7CAA85DEB194816665 /* Pods-timetrackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		98B7E4A2C0F72A33CDA91D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB9FD79A7904133CAAB6E6 /* Pods_timetrack.framework */,
+				6E8B01AFCFE392FCB5B0335A /* Pods_timetrack_timetrackUITests.framework */,
+				458EFDD326E07910AC23F3C8 /* Pods_timetrackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +188,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C5AB07256CA6D000E33E76 /* Build configuration list for PBXNativeTarget "timetrack" */;
 			buildPhases = (
+				2DE6BEBD1FB9446004677A12 /* [CP] Check Pods Manifest.lock */,
 				43C5AADE256CA6CE00E33E76 /* Sources */,
 				43C5AADF256CA6CE00E33E76 /* Frameworks */,
 				43C5AAE0256CA6CE00E33E76 /* Resources */,
+				57EC28D88244960E4570E4C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = timetrack;
+			packageProductDependencies = (
+			);
 			productName = timetrack;
 			productReference = 43C5AAE2256CA6CE00E33E76 /* timetrack.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C5AB0A256CA6D000E33E76 /* Build configuration list for PBXNativeTarget "timetrackTests" */;
 			buildPhases = (
+				AB2380FAC8BD679082B22E4C /* [CP] Check Pods Manifest.lock */,
 				43C5AAEF256CA6D000E33E76 /* Sources */,
 				43C5AAF0256CA6D000E33E76 /* Frameworks */,
 				43C5AAF1256CA6D000E33E76 /* Resources */,
@@ -172,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C5AB0D256CA6D000E33E76 /* Build configuration list for PBXNativeTarget "timetrackUITests" */;
 			buildPhases = (
+				2D271613BA88540A60C64A8E /* [CP] Check Pods Manifest.lock */,
 				43C5AAFA256CA6D000E33E76 /* Sources */,
 				43C5AAFB256CA6D000E33E76 /* Frameworks */,
 				43C5AAFC256CA6D000E33E76 /* Resources */,
+				ADBC82D8C1A54C08FB80017F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +275,8 @@
 				Base,
 			);
 			mainGroup = 43C5AAD9256CA6CE00E33E76;
+			packageReferences = (
+			);
 			productRefGroup = 43C5AAE3256CA6CE00E33E76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,11 +314,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D271613BA88540A60C64A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timetrack-timetrackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE6BEBD1FB9446004677A12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timetrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57EC28D88244960E4570E4C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timetrack/Pods-timetrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timetrack/Pods-timetrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timetrack/Pods-timetrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB2380FAC8BD679082B22E4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timetrackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBC82D8C1A54C08FB80017F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timetrack-timetrackUITests/Pods-timetrack-timetrackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timetrack-timetrackUITests/Pods-timetrack-timetrackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timetrack-timetrackUITests/Pods-timetrack-timetrackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43C5AADE256CA6CE00E33E76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43C5AB26256CA9F900E33E76 /* LoginView.swift in Sources */,
 				43C5AAE8256CA6CE00E33E76 /* ContentView.swift in Sources */,
 				43C5AAE6256CA6CE00E33E76 /* timetrackApp.swift in Sources */,
 			);
@@ -414,6 +578,7 @@
 		};
 		43C5AB08256CA6D000E33E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B293349C77CCB0E69DB028A /* Pods-timetrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +601,7 @@
 		};
 		43C5AB09256CA6D000E33E76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9097F4BEE0AFB78F4E2D8F /* Pods-timetrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +624,7 @@
 		};
 		43C5AB0B256CA6D000E33E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88027DC360684882C6118F24 /* Pods-timetrackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +647,7 @@
 		};
 		43C5AB0C256CA6D000E33E76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8630B7CAA85DEB194816665 /* Pods-timetrackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +670,7 @@
 		};
 		43C5AB0E256CA6D000E33E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987A68CF98E2E13E00B54BDE /* Pods-timetrack-timetrackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +691,7 @@
 		};
 		43C5AB0F256CA6D000E33E76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE1C65AB6E9B7A7790CC083 /* Pods-timetrack-timetrackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
